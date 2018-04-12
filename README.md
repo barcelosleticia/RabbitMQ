@@ -5,13 +5,13 @@
 <p>Pensando em um sistema de filas, obtem-se o publisher, que envia algo a fila e temos o consumer, que retira algo da fila, que poderá ser visto no código vinculado aqui.
 
 <p><b>Vantagens:</b>
-  Escalabilidade a nível atômico;
-  Manutenibilidade;
-  Reutilização;
-  Resistência à falhas;
-  Flexibilidade de tecnologia;
+  <li>Escalabilidade a nível atômico;</li>
+  <li>Manutenibilidade;</li>
+  <li>Reutilização;</li>
+  <li>Resistência à falhas;</li>
+  <li>Flexibilidade de tecnologia;</li>
 <p><b>Desvantagens:</b>
-  Perda de performance;
-  Difícil implantação;
+  <li>Perda de performance;</li>
+  <li>Difícil implantação;</li>
   
   <p><b>OBS:</b> Para que os serviços funcionem <u>perfeitamente</u>, o Consumer deve ser executado primeiramente, e logo após, o Publisher.
